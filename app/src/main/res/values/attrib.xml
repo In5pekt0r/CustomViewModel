@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientView">
+        <attr name="backgroundColorFirst" format="color" />
+        <attr name="backgroundColorSecond" format="color" />
+        <attr name="circleGradientColorFirst" format="color"/>
+        <attr name="circleGradientColorSecond" format="color"/>
+    </declare-styleable>
+</resources>
