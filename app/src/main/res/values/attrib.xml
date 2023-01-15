@@ -6,4 +6,12 @@
         <attr name="circleGradientColorFirst" format="color"/>
         <attr name="circleGradientColorSecond" format="color"/>
     </declare-styleable>
+    <attr name="gradientViewStyle" format="reference" />
+
+    <style name="GradientViewStyle">
+        <item name="backgroundColorFirst">@color/white</item>
+        <item name="backgroundColorSecond">@color/black</item>
+        <item name="circleGradientColorFirst">@color/purple_200</item>
+        <item name="circleGradientColorSecond">@color/teal_200</item>
+    </style>
 </resources>
